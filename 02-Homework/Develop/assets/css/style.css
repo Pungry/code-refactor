@@ -144,6 +144,8 @@ p {
     font-size: 36px;
 }
 
+/*There was originally three separate blocks of CSS code defining the h3 and img for all three asides of the benefits section. These three blocks of codes have been consolidated into one .benefits h3 and .benefits img section of code that rules them all. Though the .benefit-lead, .benefit-cost, and .benefit-brand look redundant due to having the same code, taking out their CSS code ruins the spacing, so I have left them as-is.*/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -155,22 +157,20 @@ p {
     background-color: #2589bd;
 }
 
-/*The three separate benefit asides have had their separate CSS specifications ordered together for easier finding of each category's parts*/
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .benefit-brand {
@@ -178,31 +178,9 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .footer {
