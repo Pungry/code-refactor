@@ -24,7 +24,9 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/*After changing the header div tag to "nav", I updated the CSS selector to match*/
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*After changing the header div tag to "nav", I updated the CSS selector to match*/
+
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*After changing the header div tag to "nav", I updated the CSS selector to match*/
+
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
